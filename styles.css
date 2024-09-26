@@ -1,0 +1,444 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Your existing nav styles */
+  nav {
+    background: #F1B567;
+    margin: 0px;
+    padding: 0;
+    border-radius: 0;
+    height: 5.5vh;
+    position: sticky;
+    top: 0;
+  }
+  .LogoButton {
+    border: none;
+    margin-top: 1vh;
+    margin-bottom: 0.8vh;
+    margin-left: 2.5vw;
+    background-image: url('images/MainLogo.png');
+    background-size: 16vh 3.5vh;
+    width: 7.4vw;
+    height: 3.5vh;
+  }
+  .ProfileButton {
+    border-radius: 5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: #8D2828;
+    color: white;
+    border: none;
+    margin-top: 1vh;
+    margin-bottom: 0.8vh;
+    margin-left: 2.5vw;
+    padding: 1vh;
+    height: 3.5vh;
+    margin-right: 2.5vw;
+  }
+  .SearchForm {
+    margin-top: 1vh;
+    margin-bottom: 0.8vh;
+    margin-left: auto;
+    margin-right: 0.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 15vw;
+    height: 3.5vh; /* adjust the width as needed */
+  }
+  
+  #search-input {
+    flex: 1;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    width: 12vw;
+    height: 3.5vh; /* adjust the width as needed */
+  }
+  #search-button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    width: 2vw;
+    height: 3.5vh; /* adjust the width as needed */
+  }
+  #search-button:hover {
+    background-color: #8D2828;
+  }
+  .ProfileButton div {
+    text-align: center;
+    line-height: 3.5vh; /* match the height of the button */
+  }
+  .ProfileButton .fa-regular {
+    margin-left: 0.2vw; /* add space between the text and the icon */
+  }
+  .lower-center {
+    display: flex;
+  }
+  .main-menu {
+    background-color: #8D2828;
+    width: 15vw;
+    height: 48vh;
+  }
+
+  .MenuButtons {
+    width: 12vw;
+    height: 5vh;
+    margin-left: 1vw;
+    margin-bottom: 2px;
+    background-color: #8D2828;
+    border-color: #8D2828;
+    font-size: 2.2vh; /* set font size to a percentage of the viewport width */
+     /* match the height of the button */
+    color: white;
+  }
+
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    
+    
+    background-color: #8D2828; /* same color as the menu section */
+    border: 1px solid #8D2828;
+    padding: 10px;
+    z-index: 1;
+  }
+  .dropdown-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .dropdown-list li {
+    padding: 10px;
+    border-bottom: 1px solid #8D2828;
+  }
+  
+  .dropdown-list li:hover {
+    background-color: #F1B567;
+  }
+  
+  .dropdown-list a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #postal-circles-btn:hover + #postal-circles-list {
+    display: block;
+  }
+    .MenuButton {
+        margin-top: 5vh;
+        margin-left: 1vw;
+        margin-bottom: 2vh;
+        box-shadow: 0px 2px 2px #8D2828;  /* added horizontal offset, vertical offset, and blur radius */
+      } 
+  
+
+.icon-menu {
+   background-color: white;
+   width: 60vw;
+   height: 42vh;
+   margin-top: 3vh;
+}
+.news-block{
+    margin-top: 4vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    padding-top: 1.2vh;
+    background-color: #8D2828;
+    width: 22vw;
+    height: 38vh;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+}
+.icon-row {
+    padding-left: 2vw;
+    height: 18vh;
+    background-color: white;
+    margin: 3vh;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+}
+.icon-row img {
+    
+    height: 100%; /* Make the images take up the full height of the container */
+    width: 8vw; /* Set a fixed width */ /* Automatically adjust the width to maintain the aspect ratio */
+    box-shadow: 0 0.1px 3px rgba(152, 152, 152, 0.5), 0 0.1px 0.1px rgba(97, 96, 96, 0.1), 0 2px 2px rgba(75, 74, 74, 0.5); /* Add a box shadow with 3px blur radius at top, left, and right sides, and 5px at bottom side */
+  }
+.icons {
+    margin-left: 4vw;
+}
+.News {
+    margin-top: 1.5vh;
+    background-color: #f5f2f2;
+    width:  22vw;
+    height: 31.5vh;;
+    padding-top: 1.5vh;
+}
+.news-para{
+    margin-top: 1vh;
+    margin-bottom: 0;
+    margin-left: 2vh;
+    text-align: left;
+    font-size: medium;
+    color: initial;
+}
+/* login page css- */
+
+.login-body{
+  background-image: url('images/stampsbg.jpg');
+}
+  .login-box {
+    border-radius: 8%;
+    height: 75vh;
+    width: 35vw;
+    background-color: rgba(237, 214, 162, 0.9441);
+    margin: auto;
+    margin-top: 5%;
+    padding-top: 12vh;
+  }
+  .login-details {
+    height: 55vh;
+    width: 25vw;
+    background-color: white;
+    margin: auto;
+    padding-top: 5vh;
+  }
+  .mail-box {
+    width: 20vw;
+    height: 10vh;
+    margin: auto;
+  }
+  .password-box {
+    
+   
+    width: 20vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 1vh;
+  }
+  .mail-box input[type="email"] {
+    width: 20vw; /* adjust the width to your liking */
+    border: 2px solid #ccc; /* change border width to 2px */
+    border-radius: 5px; /* add a rounded corner to the border */
+    color: #666; /* change font color to grey */
+    text-indent: 10px;
+    
+  }
+  .password-box input[type="password"] {
+    width: 20vw; 
+    border: 2px solid #ccc; /* change border width to 2px */
+    border-radius: 5px; /* add a rounded corner to the border */
+    color: #666; /* change font color to grey */
+    text-indent: 10px;
+  }
+  .mail-box input[type="email"]::placeholder {
+    font-size: 2vh; /* change font size of placeholder text to 18px */
+  }
+  .password-box input[type="password"]::placeholder {
+    font-size: 2vh; /* change font size of placeholder text to 18px */
+  }
+  .forgot-pass {
+    color: initial;
+  }
+  .forgot-password {
+    width: 20vw;
+    height: 3vh;
+    margin: auto;
+    
+  }
+ 
+  .login-button {
+    margin: auto;
+    margin-top: 5vh;
+    width: 5vw;
+    height: 6vh;
+  }
+  .no-account {
+    margin-top: 3vh;
+  }
+
+  /* buystamps page css- */
+
+  .buystamps-main {
+   
+    display: flex;
+  }
+  .categories-box {
+    width: 20vw;
+    background-color: #8D2828;
+    color: white;
+    font-size: larger;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-bottom: 2vh;
+    max-height: 94vh;
+   /* adjust the max-height to your desired value */
+    scrollbar-width: none; /* hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+    position: sticky;
+    top: 5.5vh;
+    right: 0;
+  
+  }
+  .categories-box-admin {
+    width: 20vw;
+    background-color: #8D2828;
+    color: white;
+    font-size: larger;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-bottom: 2vh;
+    max-height: 95vh;
+   /* adjust the max-height to your desired value */
+    scrollbar-width: none; /* hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+    position: sticky;
+    top: 5.5vh;
+    right: 0;
+  
+  }
+  .categories-box-text-admin{
+    overflow-y: auto;
+    max-height: 35vh; /* adjust the max-height to your desired value */
+    scrollbar-width: none; /* hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+    font-size: 2vh;
+  }
+  .categories-box-text{
+    overflow-y: auto;
+    max-height: 82vh; /* adjust the max-height to your desired value */
+    scrollbar-width: none; /* hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+  }
+  .categories-box::-webkit-scrollbar {
+    display: none; /* hide scrollbar in Chrome, Safari, and Opera */
+  }
+  .categories-text{
+    margin-bottom: 3vh;
+  }
+  .categories-box-text {
+    font-size: medium;
+  }
+  .cat-text {
+    color: white;
+  }
+  
+  .buying-main {
+    padding-bottom: 5vh;
+    width: 80vw;
+   margin-left: 2vw;
+  }
+  .buying-header {
+    width: 50vw;
+    padding-top: 5vh;
+    margin: auto;
+    display: flex;
+    margin-bottom: 3vh;
+  }
+  .new-arrivals-heading {
+    
+    margin-left: 4vh;
+    color: #8D2828;
+  }
+  .hr-buy {
+    border: 0.1vh solid rgb(180, 177, 177);   
+    padding: 0;
+    margin: 0;
+    margin-top: 1vh;
+  }
+  .new-arrivals-row {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 6vh;
+  }
+ .new-arrivals-row-box {
+  height: 44vh;
+  width: 20vw;
+  margin-right: 6vh ;
+  border: 0.5vh solid rgb(180, 177, 177);  ;
+  border-radius: 5%;
+  text-align: center;
+  
+ }
+ .new-arrivals-row-box-admin {
+  height: 44vh;
+  width: 70vw;
+  margin-right: 6vh ;
+  border: 0.5vh solid rgb(180, 177, 177);  ;
+  border-radius: 5%;
+  padding-left: 5vw;
+  
+ }
+ .new-arrivals-row-box-admin img {
+  height: 28vh;
+  display: block;
+  margin: 4vh -2vh;
+
+ }
+ .new-arrivals-row-box-next{
+  padding-left: 1vh;
+  margin-top: 15vh;
+ }
+ .new-arrivals-row-box img {
+  height: 28vh;
+  display: block;
+  margin: 2vh auto;
+
+ }
+
+ /* cart page styles */
+
+ .cart-main {
+  display: flex;
+ }
+ .cart-header{
+  margin-top: 6vh;
+  margin-left: 5vw;
+ }
+ 
+
+ .cart-header span {
+  display: inline-block;
+  width: 12vw;
+  text-align: center;
+}
+
+.cart-header .cart-card-col{
+  display: inline-block;
+  width: 21vw;
+  
+}
+.cart-bill {
+  width: 35vw;
+ 
+ 
+  position: sticky;
+  top: 5.5vh;
+  height: 94.5vh;
+
+}
+.cart-row span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.bill-box {
+  margin: auto;
+  margin-top: 15vh;
+  height: 60vh;
+  width: 20vw;
+  border: 0.5vh solid rgb(180, 177, 177);  ;
+  border-radius: 2%;
+}
